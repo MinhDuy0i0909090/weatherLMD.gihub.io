@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans&display=swap" rel="stylesheet">
+
+
+    <title>Weather App</title>
+   
+    <link href="Content/Style.css" rel="stylesheet" />
+   
+    <script src="Scripts/scrip.js"></script>
+</head>
+<body>
+
+
+    <div class="flex_topnav">
+        <div class="header_logo">
+            <a href="index.html"> <img src="https://cdn.glitch.me/989ff301-4bce-497b-b81c-fdd9ba857303/263687063_3044184542506251_1949316119525871996_n-removebg-preview.png?v=1640012311157" alt="logo" title="Logo" height="120px" /></a>
+        </div>
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Search" />
+            <button><img src="https://img.icons8.com/ios/250/000000/search--v1.png" id="icon" /></button>
+        </div>
+        <div class="link">
+            <ul>
+                <li><a href="#">Hôm nay</a></li>
+                <li><a href="index1.html">Hàng ngày </a></li>
+                <li><a href="#">Hàng giờ</a></li>
+
+
+            </ul>
+        </div>
+
+    </div>
+    <div class="main-contain">
+        <div class="card">
+
+            <div class="top_property">
+                <div class="weather">
+                    <h1 class="city">Weather in Denver</h1>
+                    <h1 class="temp">
+                        51°C
+                    </h1>
+                    <div class="flex">
+                        <img src="http://openweathermap.org/img/wn/02n.png" alt="" class="icon" />
+                        <div class="description">Cloudy</div>
+                    </div>
+                </div>
+
+                <div class="right_card" id="current-time">
+
+                    <div class="time" id="time">
+                        12:30 <span id="am-pm">PM</span>
+                    </div>
+                    <div class="date" id="date">
+                        Monday, 24 May
+                    </div>
+
+                </div>
+
+            </div>
+
+            <br />
+            <div class="Property" id="fix_pad">
+                <div class="humidity" id="fix_pad">Humidity: 60%</div>
+                <div class="wind" id="fix_pad">Wind speed: 6.2 km/h</div>
+                <div class="visibility" id="fix_pad">
+                    Visibility: 6.2 km
+                </div>
+                <div class="sunrise" id="fix_pad">
+                    Sunrise: 6:02 AM
+                </div>
+                <div class="sundown" id="fix_pad">
+                    Sundown: 6:02 PM
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="footer">
+
+        <p>
+            &copy;2021 Huflit <br/>
+            Email:
+            <a href="mailto:bthd1805@gmail.com" style=" color: black; ">bthd1805@gmail.com</a>
+        </p>
+    </div>
+
+
+
+</body>
+</html>
